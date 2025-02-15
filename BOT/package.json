@@ -1,0 +1,29 @@
+{
+    "name": "nodejs",
+    "version": "1.0.0",
+    "description": "Bot de moderação para Discord com integração Roblox",
+    "main": "index.js",
+    "scripts": {
+      "prestart": "npm install",
+      "start": "node index.js"
+    },
+    "keywords": [
+      "discord",
+      "bot",
+      "moderation",
+      "roblox"
+    ],
+    "author": "Seu Nome",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "discord.js": "^14.18.0",
+      "dotenv": "^16.4.7",
+      "express": "^4.21.2",
+      "sqlite3": "^5.1.7"
+    },
+    "engines": {
+      "node": ">=18.0.0"
+    }
+  }
+  
