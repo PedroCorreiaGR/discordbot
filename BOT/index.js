@@ -144,7 +144,7 @@ const client = new Client({
     status: "dnd",
     activities: [
       {
-        name: "traumatizing Gray every day",
+        name: "Traumatizing Gray Every Day",
         type: ActivityType.Listening,
       },
     ],
